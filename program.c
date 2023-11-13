@@ -141,6 +141,8 @@ int main(int argc, char *argv[]) {
     if (choose == 1) {
         Project *project = findByCondition(ptrProject);
         printf("%d",project->total_member);
+    } else {
+        // do nothing
     }
     free(ptrProject);
     free(ptrStudent);
