@@ -3,4 +3,7 @@ project(c_advance C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(c_advance main.c)
+add_executable(c_advance
+       # main.c
+        program.c
+)
